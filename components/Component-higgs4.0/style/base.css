@@ -1,0 +1,30 @@
+/*
+    该样式属于公共基础原子类，
+    通过import方式引入scss使用
+    并不会存在重复引入覆盖的问题
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei";
+}
+
+.fl { float: left; }
+.fr { float: right; }
+
+.w100 { width: 100%; }
+.h100 { height: 100%; }
+
+.none { display: none; }
+.block { display: block; }
+
+ul { list-style: none; }
+
+a { text-decoration: none; }
+
+.bold { font-weight: bold; }
+.normal { font-weight: normal; }
+
+.clearfix { overflow: hidden; }

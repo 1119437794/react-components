@@ -1,0 +1,27 @@
+.circle-bill-graph {
+  width: 400px;
+  height: 400px;
+}
+
+.circle-bill-graph {
+  animation: rotate-frame .8s ease-in-out;
+}
+
+@-webkit-keyframes rotate-frame {
+
+  25% {
+    transform: rotate(4deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-4deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

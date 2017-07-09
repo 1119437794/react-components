@@ -1,0 +1,12 @@
+/*
+  主要是为了使用sass语法
+  通过import 引入使用
+*/
+
+@mixin transition ($property: all, $time: .3s) {
+       -o-transition: $property $time;
+      -ms-transition: $property $time;
+     -moz-transition: $property $time;
+  -webkit-transition: $property $time;
+          transition: $property $time;
+}

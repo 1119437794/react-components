@@ -1,0 +1,36 @@
+.notification {
+  position: absolute;
+  width: 335px;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 1px 8px hsla(0,0%,39%,.2);
+  transition: transform .3s;
+  transform: translate(13px, -82px);
+
+  &.show-notification {
+    transform: translate(40px, 200px);
+  }
+}
+
+.notification-title {
+  color: #404040;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.notification-content{
+  color: #666;
+  font-size: 12px;
+}
+
+.notification-close {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  background-image: url("../../../dest/imgs/notification-close-icon.png");
+}

@@ -1,0 +1,12 @@
+
+.twoDate {
+
+  @at-root #{&}__root {
+    height: 36px;
+
+    .date__root {
+      float: left;
+      margin-right: 20px;
+    }
+  }
+}

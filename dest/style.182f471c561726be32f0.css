@@ -1,0 +1,17 @@
+.simple-upload {
+  position: relative;
+  padding: 4px 15px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #d9d9d9; }
+  .simple-upload iframe, .simple-upload form, .simple-upload input {
+    display: none; }
+  .simple-upload::before {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAIAAAASSxgVAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAeUlEQVR42r3QoRKAIAyAYZ7WYLZalq0rZCt5xWqxEFbMllULhYKcZxAEbf5xfHcMVMiSZZF8plJB0MSApIY86w7IIBqCTrMvI1k3FyyiDW5bxdeui53odacfEOvkxSkSwnio4rS/Ix5H/kTZ/19IJmibau0w78/FSx0h7qT4Z9NGNQAAAABJRU5ErkJggg==);
+    display: inline-block;
+    margin-right: 10px; }
+  .simple-upload::after {
+    content: "Click to Upload";
+    display: inline-block;
+    color: #666;
+    font-size: 12px; }

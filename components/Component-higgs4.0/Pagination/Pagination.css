@@ -1,0 +1,70 @@
+.pagination-page-size,
+.pagination-page-list,
+.pagination-page-list > li,
+.pagination-page-total,
+.pagination-row-total,
+.pagination-page-input {
+  float: left;
+}
+
+.pagination-page-size,
+.pagination-page-list > li,
+.pagination-page-input input {
+  border: 1px solid #d9d9d9;
+}
+
+.pagination,
+.pagination-page-size,
+.pagination-page-input input {
+  font-size: 12px;
+}
+
+.pagination-page-size,
+.pagination-page-list,
+.pagination-page-list > li,
+.pagination-page-total,
+.pagination-row-total {
+  margin-right: 8px;
+}
+
+.pagination {
+  overflow: hidden;
+}
+
+.pagination-page-size {
+  padding: 3px 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.pagination-page-list > li {
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  cursor: pointer;
+}
+.pagination-page-list > li:hover {
+  color: #2db7f5;
+  border-color: #2db7f5;
+}
+.pagination-page-list > li.active {
+  color: #fff;
+  border-color: #2db7f5;
+  background-color: #2db7f5;
+}
+
+.pagination-page-total,
+.pagination-row-total {
+  line-height: 26px;
+}
+
+.pagination-page-input {
+  line-height: 26px;
+}
+.pagination-page-input input {
+  width: 50px;
+  height: 28px;
+  padding: 4px 7px;
+  outline: none;
+}

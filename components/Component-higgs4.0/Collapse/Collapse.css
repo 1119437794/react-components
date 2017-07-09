@@ -1,0 +1,54 @@
+.collapse {
+  width: 400px;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  border: 1px solid #d9d9d9;
+}
+
+.fold-unfold, .collapse-item-title.unfold::before, .collapse-item-title.fold::before {
+  content: "";
+  position: absolute;
+  left: 24px;
+  top: 16px;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+.collapse-item {
+  border-top: 1px solid #d9d9d9;
+}
+
+.collapse-item-title {
+  height: 38px;
+  line-height: 38px;
+  padding-left: 32px;
+  color: #666;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+}
+.collapse-item-title.unfold::before {
+  border-top: 3px solid #666;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+.collapse-item-title.fold::before {
+  border-left: 3px solid #666;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+
+.collapse-item-content {
+  padding: 0 16px;
+  color: #666;
+  font-size: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-transition: height 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+          transition: height 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.collapse-item-content p {
+  padding: 16px 0;
+}

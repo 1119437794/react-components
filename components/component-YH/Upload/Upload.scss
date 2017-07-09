@@ -1,0 +1,46 @@
+// Created By yxc
+
+.upload {
+    @at-root {
+        &_root {
+            display: inline-block;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid gray;
+        }
+
+        &_iframe {
+            display: none;
+        }
+
+        &_form {
+            float: left;
+            height: 40px;
+        }
+
+        &_label {
+            display: block;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid gray;
+            cursor: pointer;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        &_input {
+            display: none;
+        }
+
+        &_submit {
+            float: left;
+            height: 40px;
+            margin-left: 20px;
+            padding: 0 10px;
+            border-radius: 4px;
+            border: 1px solid gray;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    }
+}

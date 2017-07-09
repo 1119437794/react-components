@@ -1,0 +1,32 @@
+/*
+  @at-root
+  多个参数mixin，可以选择性的传入参数，使用参数名与值同时传入
+  占位选择器%
+  函数，lighten减淡和darken加深
+  运算
+  条件判断及循环
+*/
+
+@import "public";
+@import "base.css";
+
+.div {
+  width: 500px;
+  height: 500px;
+  border: 1px solid lighten(red, 40%);
+  //@include filled-circle(
+  //        $right: 20px,
+  //        $top: 20px,
+  //        $size: 20px
+  //);
+  //@include triangle(
+  //  $left: 40px,
+  //  $top: 20px,
+  //  $size: 20px,
+  //  $dir: bottom,
+  //  $bgColor: red
+  //);
+
+  //@include loading()
+  @include btn($width: 60px, $height: 40px, $cursor: pointer);
+}

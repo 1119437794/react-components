@@ -1,0 +1,21 @@
+.simple-upload {
+  position: relative;
+  padding: 4px 15px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #d9d9d9;
+}
+.simple-upload iframe, .simple-upload form, .simple-upload input {
+  display: none;
+}
+.simple-upload::before {
+  content: url("../../../dest/imgs/simple-upload-icon.png");
+  display: inline-block;
+  margin-right: 10px;
+}
+.simple-upload::after {
+  content: "Click to Upload";
+  display: inline-block;
+  color: #666;
+  font-size: 12px;
+}
